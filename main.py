@@ -15,7 +15,7 @@ def write_csv_file(filename: str):
 
         # write a few data rows
         writer.writerow({'first_name': 'Mark', 'last_name': 'Grohman'})
-        writer.writerow({'first_name': 'Frederick', 'last_name': 'Morrison'})
+        writer.writerow({'first_name': 'Fred', 'last_name': 'Morrison'})
         writer.writerow({'first_name': 'John', 'last_name': 'Smith'})
 
 
