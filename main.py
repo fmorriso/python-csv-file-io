@@ -13,7 +13,7 @@ def write_csv_file(file_name: str):
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
-        # write a few data rows
+        # write a few data rows to the CSV file
         writer.writerow({'first_name': 'Mark', 'last_name': 'Grohman'})
         writer.writerow({'first_name': 'Fred', 'last_name': 'Morrison'})
         writer.writerow({'first_name': 'John', 'last_name': 'Smith'})
