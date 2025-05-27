@@ -1,5 +1,6 @@
 import csv
 import sys
+from typing import Collection
 
 
 def get_python_version() -> str:
